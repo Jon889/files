@@ -7,13 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB078AAE1A5EF072002E2666 /* UIBarButtonItem+autorelease.m in Sources */ = {isa = PBXBuildFile; fileRef = AB078AAD1A5EF072002E2666 /* UIBarButtonItem+autorelease.m */; };
+		AB078AB11A5F0AD4002E2666 /* FLRNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB078AB01A5F0AD4002E2666 /* FLRNavigationController.m */; };
+		AB078AB41A6010AE002E2666 /* UIAlertController+FLRExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = AB078AB31A6010AE002E2666 /* UIAlertController+FLRExtensions.m */; };
+		AB078AB71A601E80002E2666 /* UIAlertAction+FLRExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = AB078AB61A601E80002E2666 /* UIAlertAction+FLRExtensions.m */; };
+		AB078ABA1A601FBA002E2666 /* UIViewController+FLRExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = AB078AB91A601FBA002E2666 /* UIViewController+FLRExtensions.m */; };
+		AB078ABD1A602880002E2666 /* FLRGoToViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB078ABC1A602880002E2666 /* FLRGoToViewController.m */; };
+		AB078AC01A6034C7002E2666 /* FLRApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = AB078ABF1A6034C7002E2666 /* FLRApplication.m */; };
+		AB078AC31A633978002E2666 /* FLRFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB078AC21A633978002E2666 /* FLRFileViewController.m */; };
+		AB078AC61A633988002E2666 /* FLRZipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB078AC51A633988002E2666 /* FLRZipViewController.m */; };
+		AB10643D1A71EB9300A14B72 /* FLRZippedDirectory.m in Sources */ = {isa = PBXBuildFile; fileRef = AB10643C1A71EB9300A14B72 /* FLRZippedDirectory.m */; };
+		AB1064401A71EE2D00A14B72 /* FLRFileListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB10643F1A71EE2D00A14B72 /* FLRFileListViewController.m */; };
+		AB1064431A71F69D00A14B72 /* UITableView+FLRExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1064421A71F69D00A14B72 /* UITableView+FLRExtensions.m */; };
+		AB1064461A71F80500A14B72 /* FLRTopToolbarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1064451A71F80500A14B72 /* FLRTopToolbarViewController.m */; };
+		AB10644A1A7513E100A14B72 /* FLRZipInternalDirectory.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1064491A7513E100A14B72 /* FLRZipInternalDirectory.m */; };
+		AB6479C81A5B18810069FF16 /* FLRWebServer.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6479C71A5B18810069FF16 /* FLRWebServer.m */; };
+		AB6479CE1A5BEA4D0069FF16 /* index.html in CopyFiles */ = {isa = PBXBuildFile; fileRef = AB6479CA1A5BE8AF0069FF16 /* index.html */; };
+		AB6479D11A5BEE100069FF16 /* FLRHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6479D01A5BEE100069FF16 /* FLRHTTPConnection.m */; };
 		AB905C361A599FB20016E6B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB905C351A599FB20016E6B7 /* main.m */; };
 		AB905C391A599FB20016E6B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB905C381A599FB20016E6B7 /* AppDelegate.m */; };
-		AB905C3C1A599FB20016E6B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB905C3B1A599FB20016E6B7 /* ViewController.m */; };
 		AB905C3F1A599FB20016E6B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB905C3D1A599FB20016E6B7 /* Main.storyboard */; };
 		AB905C411A599FB20016E6B7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB905C401A599FB20016E6B7 /* Images.xcassets */; };
 		AB905C441A599FB20016E6B7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB905C421A599FB20016E6B7 /* LaunchScreen.xib */; };
 		AB905C501A599FB20016E6B7 /* FilerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB905C4F1A599FB20016E6B7 /* FilerTests.m */; };
+		AB905C5B1A59A35B0016E6B7 /* FLRDirectoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB905C5A1A59A35B0016E6B7 /* FLRDirectoryViewController.m */; };
+		AB905C5E1A59A78F0016E6B7 /* FLRDirectory.m in Sources */ = {isa = PBXBuildFile; fileRef = AB905C5D1A59A78F0016E6B7 /* FLRDirectory.m */; };
+		AB905C611A59AB7E0016E6B7 /* FLRFile.m in Sources */ = {isa = PBXBuildFile; fileRef = AB905C601A59AB7E0016E6B7 /* FLRFile.m */; };
+		AB905C641A59ABC80016E6B7 /* FLRFileSystemItem.m in Sources */ = {isa = PBXBuildFile; fileRef = AB905C631A59ABC80016E6B7 /* FLRFileSystemItem.m */; };
+		ABB9B7D71A763CA700192323 /* FLRSettingsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = ABB9B7D61A763CA700192323 /* FLRSettingsManager.m */; };
+		ABC423611A637E3F00EA7572 /* FLRCheckbox.m in Sources */ = {isa = PBXBuildFile; fileRef = ABC423601A637E3F00EA7572 /* FLRCheckbox.m */; };
+		FEF70E47D76E634282BE014C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3AD03756425C71C8B938B86 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,20 +49,83 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		AB6479CD1A5BEA3D0069FF16 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Web;
+			dstSubfolderSpec = 7;
+			files = (
+				AB6479CE1A5BEA4D0069FF16 /* index.html in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		751FDCED058CD44BF1D46A32 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		AB078AAC1A5EF072002E2666 /* UIBarButtonItem+autorelease.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+autorelease.h"; sourceTree = "<group>"; };
+		AB078AAD1A5EF072002E2666 /* UIBarButtonItem+autorelease.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+autorelease.m"; sourceTree = "<group>"; };
+		AB078AAF1A5F0AD4002E2666 /* FLRNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLRNavigationController.h; sourceTree = "<group>"; };
+		AB078AB01A5F0AD4002E2666 /* FLRNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLRNavigationController.m; sourceTree = "<group>"; };
+		AB078AB21A6010AE002E2666 /* UIAlertController+FLRExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+FLRExtensions.h"; sourceTree = "<group>"; };
+		AB078AB31A6010AE002E2666 /* UIAlertController+FLRExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+FLRExtensions.m"; sourceTree = "<group>"; };
+		AB078AB51A601E80002E2666 /* UIAlertAction+FLRExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertAction+FLRExtensions.h"; sourceTree = "<group>"; };
+		AB078AB61A601E80002E2666 /* UIAlertAction+FLRExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertAction+FLRExtensions.m"; sourceTree = "<group>"; };
+		AB078AB81A601FBA002E2666 /* UIViewController+FLRExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+FLRExtensions.h"; sourceTree = "<group>"; };
+		AB078AB91A601FBA002E2666 /* UIViewController+FLRExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+FLRExtensions.m"; sourceTree = "<group>"; };
+		AB078ABB1A602880002E2666 /* FLRGoToViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLRGoToViewController.h; sourceTree = "<group>"; };
+		AB078ABC1A602880002E2666 /* FLRGoToViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLRGoToViewController.m; sourceTree = "<group>"; };
+		AB078ABE1A6034C7002E2666 /* FLRApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLRApplication.h; sourceTree = "<group>"; };
+		AB078ABF1A6034C7002E2666 /* FLRApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLRApplication.m; sourceTree = "<group>"; };
+		AB078AC11A633978002E2666 /* FLRFileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLRFileViewController.h; sourceTree = "<group>"; };
+		AB078AC21A633978002E2666 /* FLRFileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLRFileViewController.m; sourceTree = "<group>"; };
+		AB078AC41A633988002E2666 /* FLRZipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLRZipViewController.h; sourceTree = "<group>"; };
+		AB078AC51A633988002E2666 /* FLRZipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLRZipViewController.m; sourceTree = "<group>"; };
+		AB10643B1A71EB9300A14B72 /* FLRZippedDirectory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLRZippedDirectory.h; sourceTree = "<group>"; };
+		AB10643C1A71EB9300A14B72 /* FLRZippedDirectory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLRZippedDirectory.m; sourceTree = "<group>"; };
+		AB10643E1A71EE2D00A14B72 /* FLRFileListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLRFileListViewController.h; sourceTree = "<group>"; };
+		AB10643F1A71EE2D00A14B72 /* FLRFileListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLRFileListViewController.m; sourceTree = "<group>"; };
+		AB1064411A71F69D00A14B72 /* UITableView+FLRExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+FLRExtensions.h"; sourceTree = "<group>"; };
+		AB1064421A71F69D00A14B72 /* UITableView+FLRExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+FLRExtensions.m"; sourceTree = "<group>"; };
+		AB1064441A71F80500A14B72 /* FLRTopToolbarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLRTopToolbarViewController.h; sourceTree = "<group>"; };
+		AB1064451A71F80500A14B72 /* FLRTopToolbarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLRTopToolbarViewController.m; sourceTree = "<group>"; };
+		AB1064471A74581600A14B72 /* FLRDirectory+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FLRDirectory+Private.h"; sourceTree = "<group>"; };
+		AB1064481A7513E100A14B72 /* FLRZipInternalDirectory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLRZipInternalDirectory.h; sourceTree = "<group>"; };
+		AB1064491A7513E100A14B72 /* FLRZipInternalDirectory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLRZipInternalDirectory.m; sourceTree = "<group>"; };
+		AB6479C61A5B18810069FF16 /* FLRWebServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLRWebServer.h; sourceTree = "<group>"; };
+		AB6479C71A5B18810069FF16 /* FLRWebServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLRWebServer.m; sourceTree = "<group>"; };
+		AB6479CA1A5BE8AF0069FF16 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		AB6479CF1A5BEE100069FF16 /* FLRHTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLRHTTPConnection.h; sourceTree = "<group>"; };
+		AB6479D01A5BEE100069FF16 /* FLRHTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLRHTTPConnection.m; sourceTree = "<group>"; };
+		AB6479DB1A5DB5870069FF16 /* UINavigationBar+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+Private.h"; sourceTree = "<group>"; };
 		AB905C301A599FB20016E6B7 /* Filer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Filer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB905C341A599FB20016E6B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB905C351A599FB20016E6B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AB905C371A599FB20016E6B7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AB905C381A599FB20016E6B7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AB905C3A1A599FB20016E6B7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AB905C3B1A599FB20016E6B7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AB905C3E1A599FB20016E6B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB905C401A599FB20016E6B7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		AB905C431A599FB20016E6B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		AB905C491A599FB20016E6B7 /* FilerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FilerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB905C4E1A599FB20016E6B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB905C4F1A599FB20016E6B7 /* FilerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilerTests.m; sourceTree = "<group>"; };
+		AB905C591A59A35B0016E6B7 /* FLRDirectoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLRDirectoryViewController.h; sourceTree = "<group>"; };
+		AB905C5A1A59A35B0016E6B7 /* FLRDirectoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLRDirectoryViewController.m; sourceTree = "<group>"; };
+		AB905C5C1A59A78F0016E6B7 /* FLRDirectory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLRDirectory.h; sourceTree = "<group>"; };
+		AB905C5D1A59A78F0016E6B7 /* FLRDirectory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLRDirectory.m; sourceTree = "<group>"; };
+		AB905C5F1A59AB7E0016E6B7 /* FLRFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLRFile.h; sourceTree = "<group>"; };
+		AB905C601A59AB7E0016E6B7 /* FLRFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLRFile.m; sourceTree = "<group>"; };
+		AB905C621A59ABC70016E6B7 /* FLRFileSystemItem.h */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.c.h; path = FLRFileSystemItem.h; sourceTree = "<group>"; tabWidth = 4; usesTabs = 0; wrapsLines = 0; };
+		AB905C631A59ABC80016E6B7 /* FLRFileSystemItem.m */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.c.objc; path = FLRFileSystemItem.m; sourceTree = "<group>"; tabWidth = 4; usesTabs = 0; wrapsLines = 0; };
+		AB905C651A59AC320016E6B7 /* FLRFileSystemItem+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FLRFileSystemItem+Private.h"; sourceTree = "<group>"; };
+		ABB9B7D51A763CA700192323 /* FLRSettingsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLRSettingsManager.h; sourceTree = "<group>"; };
+		ABB9B7D61A763CA700192323 /* FLRSettingsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLRSettingsManager.m; sourceTree = "<group>"; };
+		ABB9B7D81A763F8000192323 /* FLRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLRViewController.h; sourceTree = "<group>"; };
+		ABC4235F1A637E3900EA7572 /* FLRCheckbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FLRCheckbox.h; sourceTree = "<group>"; };
+		ABC423601A637E3F00EA7572 /* FLRCheckbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FLRCheckbox.m; sourceTree = "<group>"; };
+		C3AD03756425C71C8B938B86 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E353191DFDA7D73BE1DC2693 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +133,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEF70E47D76E634282BE014C /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +147,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		299F2182E81FE70946C46576 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E353191DFDA7D73BE1DC2693 /* Pods.debug.xcconfig */,
+				751FDCED058CD44BF1D46A32 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AB10644B1A763B0B00A14B72 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				ABB9B7D51A763CA700192323 /* FLRSettingsManager.h */,
+				ABB9B7D61A763CA700192323 /* FLRSettingsManager.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		AB6479C91A5BE8810069FF16 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				AB6479CA1A5BE8AF0069FF16 /* index.html */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
 		AB905C271A599FB20016E6B7 = {
 			isa = PBXGroup;
 			children = (
 				AB905C321A599FB20016E6B7 /* Filer */,
 				AB905C4C1A599FB20016E6B7 /* FilerTests */,
 				AB905C311A599FB20016E6B7 /* Products */,
+				299F2182E81FE70946C46576 /* Pods */,
+				C2380EBC8EF5463B7BDD7481 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,14 +196,36 @@
 		AB905C321A599FB20016E6B7 /* Filer */ = {
 			isa = PBXGroup;
 			children = (
+				AB10644B1A763B0B00A14B72 /* Settings */,
 				AB905C371A599FB20016E6B7 /* AppDelegate.h */,
 				AB905C381A599FB20016E6B7 /* AppDelegate.m */,
-				AB905C3A1A599FB20016E6B7 /* ViewController.h */,
-				AB905C3B1A599FB20016E6B7 /* ViewController.m */,
+				ABB9B7D81A763F8000192323 /* FLRViewController.h */,
+				AB078ABE1A6034C7002E2666 /* FLRApplication.h */,
+				AB078ABF1A6034C7002E2666 /* FLRApplication.m */,
+				ABB9B7E01A76421F00192323 /* Private iOS Headers */,
 				AB905C3D1A599FB20016E6B7 /* Main.storyboard */,
 				AB905C401A599FB20016E6B7 /* Images.xcassets */,
 				AB905C421A599FB20016E6B7 /* LaunchScreen.xib */,
 				AB905C331A599FB20016E6B7 /* Supporting Files */,
+				AB10643E1A71EE2D00A14B72 /* FLRFileListViewController.h */,
+				AB10643F1A71EE2D00A14B72 /* FLRFileListViewController.m */,
+				ABB9B7DE1A7641F100192323 /* Basic Filesystem */,
+				AB905C591A59A35B0016E6B7 /* FLRDirectoryViewController.h */,
+				AB905C5A1A59A35B0016E6B7 /* FLRDirectoryViewController.m */,
+				AB1064441A71F80500A14B72 /* FLRTopToolbarViewController.h */,
+				AB1064451A71F80500A14B72 /* FLRTopToolbarViewController.m */,
+				AB078AC11A633978002E2666 /* FLRFileViewController.h */,
+				AB078AC21A633978002E2666 /* FLRFileViewController.m */,
+				ABB9B7DD1A7641D200192323 /* Zip */,
+				AB078ABB1A602880002E2666 /* FLRGoToViewController.h */,
+				AB078ABC1A602880002E2666 /* FLRGoToViewController.m */,
+				ABB9B7DC1A7641AF00192323 /* FLRExtensions */,
+				AB078AAF1A5F0AD4002E2666 /* FLRNavigationController.h */,
+				AB078AB01A5F0AD4002E2666 /* FLRNavigationController.m */,
+				ABB9B7DF1A76420C00192323 /* WebServer */,
+				ABC4235F1A637E3900EA7572 /* FLRCheckbox.h */,
+				ABC423601A637E3F00EA7572 /* FLRCheckbox.m */,
+				AB6479C91A5BE8810069FF16 /* Web */,
 			);
 			path = Filer;
 			sourceTree = "<group>";
@@ -119,6 +256,78 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		ABB9B7DC1A7641AF00192323 /* FLRExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				AB078AAC1A5EF072002E2666 /* UIBarButtonItem+autorelease.h */,
+				AB078AAD1A5EF072002E2666 /* UIBarButtonItem+autorelease.m */,
+				AB078AB81A601FBA002E2666 /* UIViewController+FLRExtensions.h */,
+				AB078AB91A601FBA002E2666 /* UIViewController+FLRExtensions.m */,
+				AB078AB21A6010AE002E2666 /* UIAlertController+FLRExtensions.h */,
+				AB078AB31A6010AE002E2666 /* UIAlertController+FLRExtensions.m */,
+				AB078AB51A601E80002E2666 /* UIAlertAction+FLRExtensions.h */,
+				AB078AB61A601E80002E2666 /* UIAlertAction+FLRExtensions.m */,
+				AB1064411A71F69D00A14B72 /* UITableView+FLRExtensions.h */,
+				AB1064421A71F69D00A14B72 /* UITableView+FLRExtensions.m */,
+			);
+			name = FLRExtensions;
+			sourceTree = "<group>";
+		};
+		ABB9B7DD1A7641D200192323 /* Zip */ = {
+			isa = PBXGroup;
+			children = (
+				AB078AC41A633988002E2666 /* FLRZipViewController.h */,
+				AB078AC51A633988002E2666 /* FLRZipViewController.m */,
+				AB10643B1A71EB9300A14B72 /* FLRZippedDirectory.h */,
+				AB10643C1A71EB9300A14B72 /* FLRZippedDirectory.m */,
+				AB1064481A7513E100A14B72 /* FLRZipInternalDirectory.h */,
+				AB1064491A7513E100A14B72 /* FLRZipInternalDirectory.m */,
+			);
+			name = Zip;
+			sourceTree = "<group>";
+		};
+		ABB9B7DE1A7641F100192323 /* Basic Filesystem */ = {
+			isa = PBXGroup;
+			children = (
+				AB905C621A59ABC70016E6B7 /* FLRFileSystemItem.h */,
+				AB905C651A59AC320016E6B7 /* FLRFileSystemItem+Private.h */,
+				AB905C631A59ABC80016E6B7 /* FLRFileSystemItem.m */,
+				AB905C5C1A59A78F0016E6B7 /* FLRDirectory.h */,
+				AB905C5D1A59A78F0016E6B7 /* FLRDirectory.m */,
+				AB905C5F1A59AB7E0016E6B7 /* FLRFile.h */,
+				AB905C601A59AB7E0016E6B7 /* FLRFile.m */,
+				AB1064471A74581600A14B72 /* FLRDirectory+Private.h */,
+			);
+			name = "Basic Filesystem";
+			sourceTree = "<group>";
+		};
+		ABB9B7DF1A76420C00192323 /* WebServer */ = {
+			isa = PBXGroup;
+			children = (
+				AB6479C61A5B18810069FF16 /* FLRWebServer.h */,
+				AB6479CF1A5BEE100069FF16 /* FLRHTTPConnection.h */,
+				AB6479D01A5BEE100069FF16 /* FLRHTTPConnection.m */,
+				AB6479C71A5B18810069FF16 /* FLRWebServer.m */,
+			);
+			name = WebServer;
+			sourceTree = "<group>";
+		};
+		ABB9B7E01A76421F00192323 /* Private iOS Headers */ = {
+			isa = PBXGroup;
+			children = (
+				AB6479DB1A5DB5870069FF16 /* UINavigationBar+Private.h */,
+			);
+			name = "Private iOS Headers";
+			sourceTree = "<group>";
+		};
+		C2380EBC8EF5463B7BDD7481 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3AD03756425C71C8B938B86 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +335,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB905C531A599FB20016E6B7 /* Build configuration list for PBXNativeTarget "Filer" */;
 			buildPhases = (
+				42EAA07FC9BE62A0F12F694F /* Check Pods Manifest.lock */,
 				AB905C2C1A599FB20016E6B7 /* Sources */,
 				AB905C2D1A599FB20016E6B7 /* Frameworks */,
 				AB905C2E1A599FB20016E6B7 /* Resources */,
+				AB6479CD1A5BEA3D0069FF16 /* CopyFiles */,
+				4B2E39A92E742F71F2A5700C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,14 +426,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		42EAA07FC9BE62A0F12F694F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4B2E39A92E742F71F2A5700C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AB905C2C1A599FB20016E6B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB905C3C1A599FB20016E6B7 /* ViewController.m in Sources */,
+				AB905C5E1A59A78F0016E6B7 /* FLRDirectory.m in Sources */,
+				AB078ABD1A602880002E2666 /* FLRGoToViewController.m in Sources */,
+				AB078AC01A6034C7002E2666 /* FLRApplication.m in Sources */,
+				AB6479C81A5B18810069FF16 /* FLRWebServer.m in Sources */,
+				AB905C641A59ABC80016E6B7 /* FLRFileSystemItem.m in Sources */,
+				AB078AB41A6010AE002E2666 /* UIAlertController+FLRExtensions.m in Sources */,
+				AB1064431A71F69D00A14B72 /* UITableView+FLRExtensions.m in Sources */,
+				AB1064401A71EE2D00A14B72 /* FLRFileListViewController.m in Sources */,
+				ABC423611A637E3F00EA7572 /* FLRCheckbox.m in Sources */,
+				AB905C611A59AB7E0016E6B7 /* FLRFile.m in Sources */,
+				AB078AC31A633978002E2666 /* FLRFileViewController.m in Sources */,
+				AB078AC61A633988002E2666 /* FLRZipViewController.m in Sources */,
+				ABB9B7D71A763CA700192323 /* FLRSettingsManager.m in Sources */,
+				AB10644A1A7513E100A14B72 /* FLRZipInternalDirectory.m in Sources */,
 				AB905C391A599FB20016E6B7 /* AppDelegate.m in Sources */,
+				AB10643D1A71EB9300A14B72 /* FLRZippedDirectory.m in Sources */,
+				AB078AB11A5F0AD4002E2666 /* FLRNavigationController.m in Sources */,
+				AB078AB71A601E80002E2666 /* UIAlertAction+FLRExtensions.m in Sources */,
 				AB905C361A599FB20016E6B7 /* main.m in Sources */,
+				AB078ABA1A601FBA002E2666 /* UIViewController+FLRExtensions.m in Sources */,
+				AB905C5B1A59A35B0016E6B7 /* FLRDirectoryViewController.m in Sources */,
+				AB6479D11A5BEE100069FF16 /* FLRHTTPConnection.m in Sources */,
+				AB1064461A71F80500A14B72 /* FLRTopToolbarViewController.m in Sources */,
+				AB078AAE1A5EF072002E2666 /* UIBarButtonItem+autorelease.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +609,7 @@
 		};
 		AB905C541A599FB20016E6B7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E353191DFDA7D73BE1DC2693 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Filer/Info.plist;
@@ -353,6 +620,7 @@
 		};
 		AB905C551A599FB20016E6B7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 751FDCED058CD44BF1D46A32 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Filer/Info.plist;
@@ -414,6 +682,7 @@
 				AB905C551A599FB20016E6B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB905C561A599FB20016E6B7 /* Build configuration list for PBXNativeTarget "FilerTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +691,7 @@
 				AB905C581A599FB20016E6B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
